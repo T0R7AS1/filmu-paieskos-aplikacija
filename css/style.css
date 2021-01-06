@@ -1,0 +1,29 @@
+#movies img , #movie img {
+  width: 100%;
+}
+
+@media (min-width:960px) {
+  #movies .col-md-3 .well {
+    height: 90%;
+  }
+}
+
+  #movies .col-md-3 img{
+    height: 75%;
+  }
+
+@media (max-width:1000px) {
+  #movies .col-md-3 img {
+    height: 62%;
+  }
+}
+@media (min-height:960px) {
+  .image {
+    height: 95%;
+  }
+}
+@media (max-height:960px) {
+  .image {
+    height: 95%;
+  }
+}
